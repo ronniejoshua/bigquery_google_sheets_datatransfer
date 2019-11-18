@@ -7,7 +7,7 @@
  */
 
  /* BigQuery Project ID */
-PROJECT_ID = 'long-grin-524';
+PROJECT_ID = 'gcp-bigquery-project-id';
 
 function onOpen(e) {
     var menu = SpreadsheetApp.getUi().createMenu("Read BQ");
