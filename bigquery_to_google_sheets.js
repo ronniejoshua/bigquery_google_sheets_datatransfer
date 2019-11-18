@@ -1,4 +1,13 @@
- /* BigQuery Project ID */
+/*
+Google Sheet Format
++--------------------+---------------------+-------------------+
+|      Tab Name      |        Query        |    Description    |
++--------------------+---------------------+-------------------+
+| my_gsheet_tab_name | starndard_sql_query | query_description |
++--------------------+---------------------+-------------------+
+ */ 
+
+/* BigQuery Project ID */
 PROJECT_ID = 'gcp-bigquery-project-id';
 
 function onOpen(e) {
